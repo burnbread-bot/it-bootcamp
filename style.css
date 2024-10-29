@@ -1,0 +1,184 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'arial', sans-serif;
+}
+
+:root{
+    --dark-blue: #5b98ce;
+    --light-blue: #4ED5FB;
+    --sky-blue: #0FA4D9;
+    --blue-grey: #8DB9DC;
+    --celestial-blue: #5697CB;
+    --gradient-blue: background-image: linear-gradient(to right, #4eaffe, #07f0fe);
+    --light-grey: #E5E5E5;
+    --white: #FFFFFF;
+    --black: #000000;
+
+}
+
+
+
+header{
+    border-bottom: 1px solid var(--blue-grey);
+}
+
+nav span{
+    font-weight: 700;
+    color: var(--dark-blue);
+    font-size: 30px;
+}
+
+nav ul{
+    border: 2px solid var(--light-blue);
+    border-radius: 25px;
+    /* font-weight: 600; */
+}
+
+.nav-link.active {
+     /* Pastikan warna background diterapkan */
+    color: var(--white) !important; /* Pastikan warna teks putih */
+    text-align: center;
+    border-radius: 25px;
+    padding-left: 50px;
+    padding-right: 50px;
+    /* display: inline-block; Pastikan latar belakang tidak melebar ke luar konten */
+    /* width: auto; Agar ukuran mengikuti konten */
+}
+
+.nav-link{
+    border-radius: 25px;
+    /* padding-left: 50px;
+    padding-right: 50px; */
+    font-weight: 500;
+}
+
+.nav-link:hover{
+    background-color: var(--light-blue) !important;
+    color: var(--white) !important; 
+    text-align: center;
+    border-radius: 25px;
+
+    
+}
+
+.nav-item{
+    /* background-color: #3A8AC5;    */
+    padding: 2px 0px;
+    /* width: 100px; */
+}
+.header-container{
+    border-bottom: 1px solid var(--blue-grey);
+}
+
+.img-container{
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    
+}
+
+.text-container{
+    display: flex;
+    align-items: center;
+}
+
+.halo{
+    font-size: 20px;
+    font-weight: 100;
+    color: var(--light-blue);
+}
+
+.text-container h2{
+    font-size: 40px;
+    font-weight: 600;
+    /* color: var(--sky-blue); */
+    background: linear-gradient(to right, var(--light-blue), var(--dark-blue));
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color:transparent;
+
+}
+
+.text-container h1{
+    font-size: 56px;
+    font-weight: 600;
+    color: var(--dark-blue);
+    /* background: linear-gradient(to right, var(--sky-blue), var(--light-blue));
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color:transparent; */
+
+}
+
+.text-container h6{
+    font-size: 20px;
+    /* font-weight: 100; */
+    color: var(--celestial-blue);
+    width: 60%;
+}
+
+.button-line{
+    background-color: var(--light-blue);
+    display: inline-block;
+    height: 1px;
+    width: 180px;
+}
+
+.button{
+    background-image: linear-gradient(to right, #4eaffe, #07f0fe);
+    border: none;
+    border-radius: 50px;
+    color: var(--white);
+    font-size: 18px;
+}
+
+.button span{
+    padding-left:20px;
+    font-size: 20px;
+    font-weight: 600;
+    text-align: center;
+}
+
+.button i{
+    font-size: 40px;
+    padding: 0px 10px;
+}
+
+.button .line {
+    display: inline-block;
+    width: 1px; 
+    height: 24px; /* Tinggi garis untuk menyeimbangkan teks dan ikon */
+    background-color: var(--white); 
+    padding: 1px;
+}
+
+.about-container{
+    border-bottom: 1px solid var(--blue-grey);
+    border-top: 1px solid var(--blue-grey);
+}
+
+.judul{
+    /* font-size: 24px; */
+    font-size: 30px;
+    font-weight: 600;
+    /* color: var(--sky-blue); */
+    background: linear-gradient(to right, var(--light-blue), var(--dark-blue));
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color:transparent;
+    border-bottom: 1px solid var(--blue-grey);
+}
+
+.judul-container i{
+    font-size: 30px;
+    font-weight: 400;
+    color: var(--dark-blue);
+}
+
+.isi-about{
+    color: #1067b7;
+    font-size: 20px;
+    font-weight: 300;
+}
